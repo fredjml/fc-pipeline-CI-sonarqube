@@ -1,0 +1,18 @@
+> pipeline-ci-com-sonarqube@1.0.0 test
+> jest --coverage
+
+---------------|---------|----------|---------|---------|-------------------
+File           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+---------------|---------|----------|---------|---------|-------------------
+All files      |     100 |      100 |     100 |     100 |
+ calculator.js |     100 |      100 |     100 |     100 |
+ index.js      |     100 |      100 |     100 |     100 |
+---------------|---------|----------|---------|---------|-------------------
+PASS tests/index.test.js
+PASS tests/calculator.test.js
+
+Test Suites: 2 passed, 2 total
+Tests:       6 passed, 6 total
+Snapshots:   0 total
+Time:        0.91 s, estimated 1 s
+Ran all test suites.

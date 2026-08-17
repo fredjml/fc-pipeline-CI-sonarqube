@@ -1,0 +1,21 @@
+{
+  "name": "pipeline-ci-com-sonarqube",
+  "version": "1.0.0",
+  "description": "Aplicacao Node.js simples para desafio de Integracao Continua com GitHub Actions e SonarQube.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "ci",
+    "github-actions",
+    "sonarqube",
+    "jest"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
